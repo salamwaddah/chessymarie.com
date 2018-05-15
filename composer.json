@@ -1,0 +1,18 @@
+{
+    "name": "chessymarie",
+    "description": "Chessy Marie a professional registered nurse",
+    "type": "project",
+    "homepage": "https://chessymarie.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salam",
+            "email": "salamwaddah@gmail.com",
+            "homepage": "https://developernaren.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "paphper/core": "0.0.9"
+    }
+}
