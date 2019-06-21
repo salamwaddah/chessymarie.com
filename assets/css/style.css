@@ -99,7 +99,11 @@ body{
     margin-top: 90px;
 }
 
-.cv-block.info .group .period{
+.period {
+    text-align: right;
+}
+
+.cv-block.info .group{
     font-size: 0.8rem;
     float: none;
     font-weight: bold;
@@ -117,10 +121,6 @@ body{
     border-radius: 2em;
 }
 
-.cv-block.info .education.group .organization{
-    background-color: #20c997; 
-}
-
 .cv-block.info .group .item{
     padding-bottom: 10px;
     margin-bottom: 25px;
@@ -134,11 +134,6 @@ body{
 
 .cv-block.info .group .item .row{
     margin-bottom: 5px;
-}
-
-.cv-block.info .work-experience h3,
-.cv-block.info .education h3{
-    font-weight: bold;
 }
 
 .cv-block .info-card{
@@ -219,7 +214,8 @@ body{
 @media (min-width: 768px) {
 
     .cv-block.info .group .period {
-        float: right; 
+        float: right;
+        text-align: right;
     }
 }
 
