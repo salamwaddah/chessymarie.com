@@ -21,7 +21,12 @@
 	</script>
 </head>
 
-<body>
+<body itemscope itemtype="http://schema.org/Person">
+    <section id="schema" style="display: none;">
+        <b itemprop="additionalName">Maryam</b>
+        <b itemprop="gender">Female</b>
+        <b itemprop="familyName">Calunsag</b>
+    </section>
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark page-navbar gradient">
 		<div class="container">
 			<a class="navbar-brand logo" href="#">Chessy Marie</a>
@@ -172,8 +177,17 @@
 					<div class="item">
 						<div class="row">
 							<div class="col-md-6">
-								<h3>Bachelor's Degree, Nursing Science</h3>
-								<h4 class="organization">Western Mindanao State University</h4>
+                                <dd itemprop="alumniOf" itemscope itemtype="http://schema.org/CollegeOrUniversity">
+                                    <h3>Bachelor's Degree, Nursing Science</h3>
+                                    <h4 itemprop="name" class="organization">Western Mindanao State University</h4>
+                                    <meta itemprop="url" content="https://wmsu.edu.ph/"/>
+                                    <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                        <meta itemprop="streetAddress" content="Normal Rd"/>
+                                        <meta itemprop="addressLocality" content="Zamboanga"/>
+                                        <meta itemprop="postalCode" content="7000"/>
+                                        <meta itemprop="addressCountry" content="PH"/>
+                                    </address>
+                                </dd>
 							</div>
 							<div class="col-md-6">
 								<time class="period">2003 - 2005</time>
@@ -204,7 +218,7 @@
 										<i class="ion-person icon"></i>
 									</div>
 									<div class="col-9">
-										<span>Chessy Marie</span>
+                                        <span itemprop="name">Chessy Marie</span>
 									</div>
 								</div>
 								<div class="row">
@@ -212,7 +226,7 @@
 										<i class="ion-ios-telephone icon"></i>
 									</div>
 									<div class="col-9">
-										<span>+971 56 885 6434</span>
+                                        <span itemprop="telephone">+971568856435</span>
 									</div>
 								</div>
 								<div class="row">
@@ -220,7 +234,7 @@
 										<i class="ion-at icon"></i>
 									</div>
 									<div class="col-9">
-										<span>chessyakiko@gmail.com</span>
+                                        <span itemprop="email">chessyakiko@gmail.com</span>
 									</div>
 								</div>
 							</div>
@@ -348,6 +362,7 @@
 		</footer>
 	</main>
 </body>
+
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="assets/js/script.js"></script>
