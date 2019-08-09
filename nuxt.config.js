@@ -12,6 +12,7 @@ module.exports = {
       {name: 'robots', content: 'index,follow'},
       {name: 'googlebot', content: 'index,follow'},
       {name: 'rating', content: 'General'},
+      {name: 'google-site-verification', content: 's1gzRwTDn9RGXCiymMEg9qLkP4riXfCxID5jVk8DVNI'},
 
       // Facebook Open Graph
       {name: 'og:url', content: 'https://www.facebook.com/salamchessy'},
