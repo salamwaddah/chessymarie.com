@@ -52,9 +52,6 @@ module.exports = {
       {rel: 'icon', type: 'image/png', sizes: '96x96', href: '/img/ico/android/android-icon-96x96.png'},
       {rel: 'icon', type: 'image/png', sizes: '144x144', href: '/img/ico/android/android-icon-144x144.png'},
       {rel: 'icon', type: 'image/png', sizes: '192x192', href: '/img/ico/android/android-icon-192x192.png'},
-
-      // Custom
-      {rel: 'stylesheet', href: 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'}
     ]
 
   },

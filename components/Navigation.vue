@@ -59,4 +59,11 @@
     background: linear-gradient(120deg, #036, #003366c7);
     color: #fff !important;
   }
+
+  @media (min-width: 576px) {
+    .navbar {
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+    }
+  }
 </style>

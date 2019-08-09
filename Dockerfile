@@ -1,4 +1,4 @@
-FROM node:9
+FROM node:10
 
 WORKDIR /src
 
@@ -8,7 +8,7 @@ RUN yarn install \
     --prefer-offline \
     --frozen-lockfile \
     --non-interactive \
-    --production=false
+    --production=true
 
 RUN yarn build
 

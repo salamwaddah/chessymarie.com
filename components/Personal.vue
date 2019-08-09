@@ -6,7 +6,7 @@
           <h2>Contact Info</h2>
           <div class="row">
             <div class="col-1">
-              <i class="ion-person icon"></i>
+              <MdPersonIcon></MdPersonIcon>
             </div>
             <div class="col-9">
               <span itemprop="name">Chessy Marie</span>
@@ -14,7 +14,7 @@
           </div>
           <div class="row">
             <div class="col-1">
-              <i class="ion-ios-telephone icon"></i>
+              <MdCallIcon></MdCallIcon>
             </div>
             <div class="col-9">
               <a rel="me" href="tel:+971568856434" title="+971568856434"
@@ -23,7 +23,7 @@
           </div>
           <div class="row">
             <div class="col-1">
-              <i class="ion-at icon"></i>
+              <IosAtIcon></IosAtIcon>
             </div>
             <div class="col-9">
               <a rel="me" href="mailto:chessyakiko@gmail.com" title="chessyakiko@gmail.com"
@@ -49,7 +49,14 @@
 </template>
 
 <script>
+  import MdPersonIcon from 'vue-ionicons/dist/md-person.vue'
+  import MdCallIcon from 'vue-ionicons/dist/md-call.vue'
+  import IosAtIcon from 'vue-ionicons/dist/ios-at.vue'
+
   export default {
-    name: "Personal"
+    name: "Personal",
+    components:{
+      MdPersonIcon, MdCallIcon, IosAtIcon
+    }
   }
 </script>
