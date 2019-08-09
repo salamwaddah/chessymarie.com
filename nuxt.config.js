@@ -75,7 +75,9 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    'bootstrap-vue/nuxt',
+    ['bootstrap-vue/nuxt', {
+      components: ['BNavbar', 'BNavbarBrand', 'BNavbarToggle', 'b-collapse', 'BNavbarNav', 'BNavItem'],
+    }],
     ['@nuxtjs/google-analytics', {
       id: 'UA-142458189-1'
     }]
