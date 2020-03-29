@@ -93,13 +93,4 @@ module.exports = {
     extend(config, ctx) {
     }
   },
-  /*
-  * Server config for Google could run
-  * Host must be 0.0.0.0 not localhost
-   */
-  server: {
-    port: process.env.PORT || 3000,
-    host: '0.0.0.0',
-    timing: false
-  }
 };
