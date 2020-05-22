@@ -38,8 +38,8 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/images/ico/android/android-icon-192x192.png">
 
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://www.google-analytics.com" rel="preconnect">
-    <script async src="https://www.google-analytics.com/analytics.js" charset="utf-8"></script>
+
+    @include('components.scripts.analytics')
 </head>
 <body>
 @yield('content')
