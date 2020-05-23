@@ -15,7 +15,7 @@
                 Hello! I am
                 <strong>Chessy Marie</strong>. I have solid hospital nursing experience; a professional nurse with strong Emergency Room ER background.
             </p>
-            <a href="https://www.linkedin.com/in/chessymarie/" aria-label="Contact Chessy Marie on LinkedIn" title="Contact me on LinkedIn" target="_blank" rel="nofollow" class="px-4 py-3 text-gray-100 rounded hover:bg-teal-700 bg-teal-800 font-bold">Contact Me</a>
+            <a href="https://www.linkedin.com/in/chessymarie/" aria-label="Contact Chessy Marie on LinkedIn" title="Contact me on LinkedIn" target="_blank" rel="noopener nofollow" class="px-4 py-3 text-gray-100 rounded hover:bg-teal-700 bg-teal-800 font-bold">Contact Me</a>
         </section>
 
         <section>
