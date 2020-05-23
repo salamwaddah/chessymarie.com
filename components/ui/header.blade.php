@@ -4,7 +4,7 @@
             <a href="/" target="_self">Chessy Marie</a>
         </h2>
         <div class="sm:hidden">
-            <button id="menu-toggle" type="button" class="block text-gray-500 hover:text-white focus:text-white focus:outline-none">
+            <button id="menu-toggle" type="button" class="block text-gray-500 hover:text-white focus:text-white focus:outline-none" aria-label="Toggle the mobile menu">
                 <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
                     <path id="opened-menu" class="hidden" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
                     <path id="closed-menu" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
@@ -13,9 +13,9 @@
         </div>
     </div>
     <nav id="mobile-menu" class="px-2 pt-2 pb-4 sm:flex sm:p-0 hidden">
-        <a href="#work-experience" target="_self" class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">Experience</a>
-        <a href="#education" target="_self" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Education</a>
-        <a href="#skills" target="_self" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Skills</a>
+        <a href="#work-experience" aria-label="Jump to work experience section" target="_self" class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">Experience</a>
+        <a href="#education" aria-label="Just to education section" target="_self" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Education</a>
+        <a href="#skills" aria-label="Jump to skills section" target="_self" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Skills</a>
     </nav>
 </header>
 
