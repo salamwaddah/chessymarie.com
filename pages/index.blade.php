@@ -112,7 +112,7 @@
                             <span class="float-right">February 2008 - December 2014</span>
                         </div>
                     </div>
-                    <p class="text-gray-650 mb-5">I am responsible for the nursing management of an average of nine patients per shift with medical, surgical, and pediatric concerns such as uncontrolled hypertension, diabetes, gastrointestinal disorders, vehicular accidents, cardiac arrest, post-operative complications, neonatal and pediatric disorders.</p>
+                    <p class="text-gray-600 mb-5">I am responsible for the nursing management of an average of nine patients per shift with medical, surgical, and pediatric concerns such as uncontrolled hypertension, diabetes, gastrointestinal disorders, vehicular accidents, cardiac arrest, post-operative complications, neonatal and pediatric disorders.</p>
                     <ul class="list-disc list-inside text-gray-600">
                         <li>Identify changes in a child’s symptoms.</li>
                         <li>Detect the abnormal physical findings.</li>
